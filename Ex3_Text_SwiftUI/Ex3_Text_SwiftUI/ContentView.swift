@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        //문자를 화면에 출력하는 컨트롤
+        Text("Swift UI 입니다.Swift UI 입니다.Swift UI 입니다.")
+            .fontWeight(.bold)
+            .foregroundColor(Color(hue: 0.09, saturation: 0.766, brightness: 0.676))
+            .multilineTextAlignment(.center)
+            .padding(.all, 12.0)
+            .font(.system(size: 30))
+            .frame(width: 300, height: 300)
+            .lineLimit(3)
+            .border(Color.purple, width: 2)
+            .background(Color.white)
+        
+        
     }
 }
 
