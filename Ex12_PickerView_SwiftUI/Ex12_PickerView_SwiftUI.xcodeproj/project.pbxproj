@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183FB936282265050055E5A6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FB935282265050055E5A6 /* AddView.swift */; };
 		18C13FD0281A72C1001FDABF /* Ex12_PickerView_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C13FCF281A72C1001FDABF /* Ex12_PickerView_SwiftUIApp.swift */; };
 		18C13FD2281A72C1001FDABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C13FD1281A72C1001FDABF /* ContentView.swift */; };
 		18C13FD4281A72C3001FDABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C13FD3281A72C3001FDABF /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183FB935282265050055E5A6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		18C13FCC281A72C1001FDABF /* Ex12_PickerView_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex12_PickerView_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C13FCF281A72C1001FDABF /* Ex12_PickerView_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex12_PickerView_SwiftUIApp.swift; sourceTree = "<group>"; };
 		18C13FD1281A72C1001FDABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				18C13FCF281A72C1001FDABF /* Ex12_PickerView_SwiftUIApp.swift */,
 				18C13FD1281A72C1001FDABF /* ContentView.swift */,
+				183FB935282265050055E5A6 /* AddView.swift */,
 				18C13FD3281A72C3001FDABF /* Assets.xcassets */,
 				18C13FD5281A72C3001FDABF /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				18C13FD2281A72C1001FDABF /* ContentView.swift in Sources */,
 				18C13FD0281A72C1001FDABF /* Ex12_PickerView_SwiftUIApp.swift in Sources */,
+				183FB936282265050055E5A6 /* AddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
